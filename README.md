@@ -56,12 +56,6 @@ end
 
 # Usage
 
-`request.env['micro_service.user_id']` will be populated with the authenticated users MicroService ID
-
-`request.env['micro_service.email']` will be populated with the authenticated users MicroService Email
-
-`request.env['micro_service.tenant_id']` will be populated with add-ons tenant_id
-
 `request.env['micro_service.client_id']` will be populated with add-ons client_id
 
 `request.env['micro_service.errors.signed_request']` will be populated if there was an error authenticating the signed request
